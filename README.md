@@ -1,13 +1,15 @@
-# Magento Module Iop_OrderGrid
+# Magento 2 Module Iop_OrderGrid
 
 ## Tested on Version
 
-* Magento 2.3.1, 2.3.4
+* Magento 2.3.5-p1
+* Magento 2.3.4
+* Magento 2.3.1
 
 ## Main Functionalities
 * Order Grid  UI component customization [added coupon_code, discount_amount columns] 
 * Copy [coupon_code, discount_amount] values from sales_order into sales_order_grid table during installation.
-* Autocopy [coupon_code, discount_amount] values from sales_order into sales_order_grid table for new orders.
+* Autocopy [coupon_code, discount_amount] values from sales_order into sales_order_grid table after place new orders.
 
 ### Features
 
@@ -32,6 +34,9 @@ These are the steps:
 
 ## Instruction to uninstall
     bin/magento module:uninstall --non-composer Iop_OrderGrid
+ 
+## Screenshot 
+![Order Grid View](https://raw.githubusercontent.com/iop/magento2_order-grid/master/docs/backend_view.png)
  
 ## Author
 Igor Ocheretnyi
