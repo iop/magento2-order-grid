@@ -36,7 +36,7 @@ These are the steps:
     bin/magento module:uninstall --non-composer Iop_OrderGrid
  
 ## Screenshot 
-![Order Grid View](https://raw.githubusercontent.com/iop/magento2_order-grid/master/docs/backend_view.png)
+![Order Grid View](https://raw.githubusercontent.com/iop/magento2-order-grid/master/docs/backend_view.png)
  
 ## Author
 Igor Ocheretnyi
